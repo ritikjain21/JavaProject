@@ -1,0 +1,105 @@
+<web-app>
+  
+  <servlet>
+  <servlet-name>abhi</servlet-name>
+  <servlet-class>ServletDemo</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>abhi1</servlet-name>
+  <servlet-class>ServletDemo1</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>abhi2</servlet-name>
+  <servlet-class>ServletDemo2</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>abhi3</servlet-name>
+  <servlet-class>ServletDemo3</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>abhi5</servlet-name>
+  <servlet-class>ServletDemo5</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>abhi6</servlet-name>
+  <servlet-class>ServletDemo6</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>abhi7</servlet-name>
+  <servlet-class>ServletDemo7</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>abhi8</servlet-name>
+  <servlet-class>ServletDemo8</servlet-class>
+  </servlet>
+ 
+ <servlet>
+  <servlet-name>abhi9</servlet-name>
+  <servlet-class>ShowAll</servlet-class>
+  </servlet>
+  
+ <servlet>
+  <servlet-name>abhi10</servlet-name>
+  <servlet-class>search</servlet-class>
+  </servlet>
+ 
+  
+  <servlet-mapping>
+  <servlet-name>abhi</servlet-name>
+  <url-pattern>/Welcome</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>abhi1</servlet-name>
+  <url-pattern>/aaa</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>abhi2</servlet-name>
+  <url-pattern>/bbb</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>abhi3</servlet-name>
+  <url-pattern>/ccc</url-pattern>
+  </servlet-mapping>
+   
+   <servlet-mapping>
+  <servlet-name>abhi5</servlet-name>
+  <url-pattern>/ddd</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>abhi6</servlet-name>
+  <url-pattern>/eee</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>abhi7</servlet-name>
+  <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+ 
+ 
+ <servlet-mapping>
+  <servlet-name>abhi8</servlet-name>
+  <url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>abhi9</servlet-name>
+  <url-pattern>/ShowAll</url-pattern>
+  </servlet-mapping>
+
+   <servlet-mapping>
+  <servlet-name>abhi10</servlet-name>
+  <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+
+</web-app>
