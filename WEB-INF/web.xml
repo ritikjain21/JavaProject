@@ -1,10 +1,5 @@
-<web-app>
-  
-  <servlet>
-  <servlet-name>abhi</servlet-name>
-  <servlet-class>ServletDemo</servlet-class>
-  </servlet>
-  
+<web-app> 
+ 
   <servlet>
   <servlet-name>abhi1</servlet-name>
   <servlet-class>ServletDemo1</servlet-class>
@@ -51,10 +46,6 @@
   </servlet>
  
   
-  <servlet-mapping>
-  <servlet-name>abhi</servlet-name>
-  <url-pattern>/Welcome</url-pattern>
-  </servlet-mapping>
   
   <servlet-mapping>
   <servlet-name>abhi1</servlet-name>
