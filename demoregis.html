@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Admin</title>
     <link rel="stylesheet" href="xyz.css">
 </head>
 
@@ -20,23 +20,28 @@
     </div>
     <div class="data">
         <center>
-            <form action="dddd">
+            <form action="Registration">
                 <table cellpadding="12px">
                     <tr>
                         <td>Enter Name</td>
                         <td><input type="text" placeholder="Enter Name" name="un"></td>
                     </tr>
                     <tr>
-                        <td>Enter Enrol</td>
+                        <td>Enter Email</td>
                         <td><input type="email" placeholder="Enter Email" name="ue"></td>
                     </tr>
                     <tr>
-                        <td>Enter Name</td>
+                        <td>Enter Contact</td>
                         <td><input type="number" placeholder="Enter C.N" name="ucn"></td>
                     </tr>
                     <tr>
-                        <td>Enter Enrol</td>
-                        <td><input type="password" placeholder="Enter password" name="up"></td>
+                        <td>Enter password</td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>                      
                     </tr>
                     <tr>
                         <td><input type="submit" value="Registration" class="B"></td>

@@ -1,11 +1,9 @@
-//registration
-
 import java.io.*;
 import java.sql.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-public class ServletDemo5 extends HttpServlet
+public class Registration extends HttpServlet
 {
 	public void doGet(HttpServletRequest request,HttpServletResponse response)throws IOException,ServletException
 	{

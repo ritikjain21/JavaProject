@@ -1,5 +1,3 @@
-//Showw all data or marks table
-
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -10,31 +8,8 @@ public class ShowAll extends HttpServlet
 	public void doGet (HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
 	{
 		PrintWriter out = response.getWriter ();
-		out.println("<html><head><title>Login Page</title><link rel='stylesheet' href='xyz.css'></head><body><div class = 'menu'><ul><li> <a href='menu.html'>Home</a> </li><li> <a href='insert.html'>Insert</a> </li><li> <a href='delete.html'>Delete</a> </li><li> <a href='update.html'>Update</a> </li><li> <a href='ShowAll'>ShowAll</a> </li><li> <a href='login.html'>LogOut</a> </li></ul></div><div id='data'><center><form action = 'insert' ><table cellpadding='10px'><th><h1>Showing All Data</h1></th>");
-					// <tr>
-					// 	<td>Enter RollNo.</td> 
-					// 	<td><input type="text" placeholder="Your Name" name="rno"></td>
-					// </tr>
-					// <tr>
-					// 	<td>Enter Name</td> 
-					// 	<td><input type="text" placeholder="Your Password" name="name"></td>
-					// </tr>
-					// <tr>
-					// 	<td>Enter Physics Marks</td> 
-					// 	<td><input type="text" placeholder="Physics Marks" name="P"></td>
-					// </tr>
-					// <tr>
-					// 	<td>Enter Chemistry Marks</td> 
-					// 	<td><input type="text" placeholder="Chemistry Marks" name="C"></td>
-					// </tr>
-					// <tr>
-					// 	<td>Enter Mathematics Marks</td> 
-					// 	<td><input type="text" placeholder="Mathematics Marks" name="M"></td>
-					// </tr>
-					// <tr>
-					// 	<th colspan="2"><input type="submit" value="Insert" class="B"></th>	
-					// </tr>
-
+		out.println("<html><head><title>Login Page</title><link rel='stylesheet' href='xyz.css'></head><body><div class = 'menu'><ul><li> <a href='menu.html'>Home</a> </li><li> <a href='insert.html'>Insert</a> </li><li> <a href='delete.html'>Delete</a> </li><li> <a href='update.html'>Update</a> </li><li><a href='search.html'>Search</a></li><li> <a href='ShowAll'>ShowAll</a> </li><li> <a href='login.html'>LogOut</a> </li></ul></div><div id='data'><center><form action = 'insert' ><table cellpadding='10px'><th><h1>Showing All Data</h1></th>");
+	
 		try
 		{
 			Class.forName ("com.mysql.cj.jdbc.Driver");
